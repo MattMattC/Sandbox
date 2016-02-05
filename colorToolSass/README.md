@@ -13,7 +13,7 @@ le fichier styles.css déjà compilé
 **Par exemple :**
 
 ```html
-<h4 class="tag-red lighter-5"> Hello World</h4>
+<h4 class="red-lighter-5"> Hello World</h4>
 ```
 
 Le nom peut être changé
@@ -32,10 +32,20 @@ $colors : (
     "default"   : #34495e
 );
 
-// pour chaque couleur on crée une classe .tag-couleur avec le background qui va.
+// pour chaque couleur on crée une classe couleur-...-. avec le background qui va.
 @each $nom, $bgcolor in $colors {
-    .tag-#{$nom} { background-color:$bgcolor; }
- }
+    .#{$nom} { background-color:$bgcolor; }
+    @for $i from 1 through 5 {
+        .#{$nom}-darker-#{$i}{
+            background-color: darken($bgcolor, $i*10%);
+        }
+    }
+    @for $i from 1 through 5 {
+        .#{$nom}-lighter-#{$i}{
+            background-color: lighten($bgcolor, $i*10%);
+        }
+    }
+}
 ```
 
 ici :

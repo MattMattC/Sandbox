@@ -8025,122 +8025,612 @@ button.close {
     display: none !important;
   }
 }
-/* line 20, ../sass/_tag.scss */
-.tag-purple {
+/* line 20, ../sass/_colors.scss */
+.purple {
   background-color: #d645de;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-red {
+/* line 22, ../sass/_colors.scss */
+.purple-darker-1 {
+  background-color: #c324cc;
+}
+
+/* line 22, ../sass/_colors.scss */
+.purple-darker-2 {
+  background-color: #9a1ca1;
+}
+
+/* line 22, ../sass/_colors.scss */
+.purple-darker-3 {
+  background-color: #701575;
+}
+
+/* line 22, ../sass/_colors.scss */
+.purple-darker-4 {
+  background-color: #470d4a;
+}
+
+/* line 22, ../sass/_colors.scss */
+.purple-darker-5 {
+  background-color: #1d051f;
+}
+
+/* line 27, ../sass/_colors.scss */
+.purple-lighter-1 {
+  background-color: #e070e6;
+}
+
+/* line 27, ../sass/_colors.scss */
+.purple-lighter-2 {
+  background-color: #e99ced;
+}
+
+/* line 27, ../sass/_colors.scss */
+.purple-lighter-3 {
+  background-color: #f3c7f5;
+}
+
+/* line 27, ../sass/_colors.scss */
+.purple-lighter-4 {
+  background-color: #fcf2fd;
+}
+
+/* line 27, ../sass/_colors.scss */
+.purple-lighter-5 {
+  background-color: white;
+}
+
+/* line 20, ../sass/_colors.scss */
+.red {
   background-color: #c0392b;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-green {
+/* line 22, ../sass/_colors.scss */
+.red-darker-1 {
+  background-color: #962d22;
+}
+
+/* line 22, ../sass/_colors.scss */
+.red-darker-2 {
+  background-color: #6d2018;
+}
+
+/* line 22, ../sass/_colors.scss */
+.red-darker-3 {
+  background-color: #43140f;
+}
+
+/* line 22, ../sass/_colors.scss */
+.red-darker-4 {
+  background-color: #190806;
+}
+
+/* line 22, ../sass/_colors.scss */
+.red-darker-5 {
+  background-color: black;
+}
+
+/* line 27, ../sass/_colors.scss */
+.red-lighter-1 {
+  background-color: #d65548;
+}
+
+/* line 27, ../sass/_colors.scss */
+.red-lighter-2 {
+  background-color: #df7c72;
+}
+
+/* line 27, ../sass/_colors.scss */
+.red-lighter-3 {
+  background-color: #e9a39b;
+}
+
+/* line 27, ../sass/_colors.scss */
+.red-lighter-4 {
+  background-color: #f2c9c5;
+}
+
+/* line 27, ../sass/_colors.scss */
+.red-lighter-5 {
+  background-color: #fbf0ef;
+}
+
+/* line 20, ../sass/_colors.scss */
+.green {
   background-color: #2ecc71;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-blue {
+/* line 22, ../sass/_colors.scss */
+.green-darker-1 {
+  background-color: #25a25a;
+}
+
+/* line 22, ../sass/_colors.scss */
+.green-darker-2 {
+  background-color: #1b7943;
+}
+
+/* line 22, ../sass/_colors.scss */
+.green-darker-3 {
+  background-color: #124f2c;
+}
+
+/* line 22, ../sass/_colors.scss */
+.green-darker-4 {
+  background-color: #082615;
+}
+
+/* line 22, ../sass/_colors.scss */
+.green-darker-5 {
+  background-color: black;
+}
+
+/* line 27, ../sass/_colors.scss */
+.green-lighter-1 {
+  background-color: #54d98c;
+}
+
+/* line 27, ../sass/_colors.scss */
+.green-lighter-2 {
+  background-color: #7ee2a8;
+}
+
+/* line 27, ../sass/_colors.scss */
+.green-lighter-3 {
+  background-color: #a8ebc4;
+}
+
+/* line 27, ../sass/_colors.scss */
+.green-lighter-4 {
+  background-color: #d1f5e0;
+}
+
+/* line 27, ../sass/_colors.scss */
+.green-lighter-5 {
+  background-color: #fbfefc;
+}
+
+/* line 20, ../sass/_colors.scss */
+.blue {
   background-color: #3498db;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-yellow {
+/* line 22, ../sass/_colors.scss */
+.blue-darker-1 {
+  background-color: #217dbb;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-darker-2 {
+  background-color: #196090;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-darker-3 {
+  background-color: #124364;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-darker-4 {
+  background-color: #0a2639;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-darker-5 {
+  background-color: #02090e;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-lighter-1 {
+  background-color: #5faee3;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-lighter-2 {
+  background-color: #8bc4ea;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-lighter-3 {
+  background-color: #b6daf2;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-lighter-4 {
+  background-color: #e1f0fa;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-lighter-5 {
+  background-color: white;
+}
+
+/* line 20, ../sass/_colors.scss */
+.yellow {
   background-color: #f1c40f;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-orange {
+/* line 22, ../sass/_colors.scss */
+.yellow-darker-1 {
+  background-color: #c29d0b;
+}
+
+/* line 22, ../sass/_colors.scss */
+.yellow-darker-2 {
+  background-color: #927608;
+}
+
+/* line 22, ../sass/_colors.scss */
+.yellow-darker-3 {
+  background-color: #614f06;
+}
+
+/* line 22, ../sass/_colors.scss */
+.yellow-darker-4 {
+  background-color: #312803;
+}
+
+/* line 22, ../sass/_colors.scss */
+.yellow-darker-5 {
+  background-color: #010100;
+}
+
+/* line 27, ../sass/_colors.scss */
+.yellow-lighter-1 {
+  background-color: #f4d03f;
+}
+
+/* line 27, ../sass/_colors.scss */
+.yellow-lighter-2 {
+  background-color: #f7dc6f;
+}
+
+/* line 27, ../sass/_colors.scss */
+.yellow-lighter-3 {
+  background-color: #f9e8a0;
+}
+
+/* line 27, ../sass/_colors.scss */
+.yellow-lighter-4 {
+  background-color: #fcf3d0;
+}
+
+/* line 27, ../sass/_colors.scss */
+.yellow-lighter-5 {
+  background-color: white;
+}
+
+/* line 20, ../sass/_colors.scss */
+.orange {
   background-color: #e67e22;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-black {
+/* line 22, ../sass/_colors.scss */
+.orange-darker-1 {
+  background-color: #bf6516;
+}
+
+/* line 22, ../sass/_colors.scss */
+.orange-darker-2 {
+  background-color: #924d10;
+}
+
+/* line 22, ../sass/_colors.scss */
+.orange-darker-3 {
+  background-color: #64350b;
+}
+
+/* line 22, ../sass/_colors.scss */
+.orange-darker-4 {
+  background-color: #361d06;
+}
+
+/* line 22, ../sass/_colors.scss */
+.orange-darker-5 {
+  background-color: #080401;
+}
+
+/* line 27, ../sass/_colors.scss */
+.orange-lighter-1 {
+  background-color: #eb9950;
+}
+
+/* line 27, ../sass/_colors.scss */
+.orange-lighter-2 {
+  background-color: #f0b37e;
+}
+
+/* line 27, ../sass/_colors.scss */
+.orange-lighter-3 {
+  background-color: #f6ceab;
+}
+
+/* line 27, ../sass/_colors.scss */
+.orange-lighter-4 {
+  background-color: #fbe9d9;
+}
+
+/* line 27, ../sass/_colors.scss */
+.orange-lighter-5 {
+  background-color: white;
+}
+
+/* line 20, ../sass/_colors.scss */
+.black {
   background-color: #000000;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-grey {
+/* line 22, ../sass/_colors.scss */
+.black-darker-1 {
+  background-color: black;
+}
+
+/* line 22, ../sass/_colors.scss */
+.black-darker-2 {
+  background-color: black;
+}
+
+/* line 22, ../sass/_colors.scss */
+.black-darker-3 {
+  background-color: black;
+}
+
+/* line 22, ../sass/_colors.scss */
+.black-darker-4 {
+  background-color: black;
+}
+
+/* line 22, ../sass/_colors.scss */
+.black-darker-5 {
+  background-color: black;
+}
+
+/* line 27, ../sass/_colors.scss */
+.black-lighter-1 {
+  background-color: #1a1a1a;
+}
+
+/* line 27, ../sass/_colors.scss */
+.black-lighter-2 {
+  background-color: #333333;
+}
+
+/* line 27, ../sass/_colors.scss */
+.black-lighter-3 {
+  background-color: #4d4d4d;
+}
+
+/* line 27, ../sass/_colors.scss */
+.black-lighter-4 {
+  background-color: #666666;
+}
+
+/* line 27, ../sass/_colors.scss */
+.black-lighter-5 {
+  background-color: gray;
+}
+
+/* line 20, ../sass/_colors.scss */
+.grey {
   background-color: #95a5a6;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-cyan {
-  background-color: #95a5a6;
+/* line 22, ../sass/_colors.scss */
+.grey-darker-1 {
+  background-color: #798d8f;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-blue-grey {
+/* line 22, ../sass/_colors.scss */
+.grey-darker-2 {
+  background-color: #617374;
+}
+
+/* line 22, ../sass/_colors.scss */
+.grey-darker-3 {
+  background-color: #4a5758;
+}
+
+/* line 22, ../sass/_colors.scss */
+.grey-darker-4 {
+  background-color: #333c3c;
+}
+
+/* line 22, ../sass/_colors.scss */
+.grey-darker-5 {
+  background-color: #1b2021;
+}
+
+/* line 27, ../sass/_colors.scss */
+.grey-lighter-1 {
+  background-color: #b1bdbd;
+}
+
+/* line 27, ../sass/_colors.scss */
+.grey-lighter-2 {
+  background-color: #ccd4d5;
+}
+
+/* line 27, ../sass/_colors.scss */
+.grey-lighter-3 {
+  background-color: #e8ecec;
+}
+
+/* line 27, ../sass/_colors.scss */
+.grey-lighter-4 {
+  background-color: white;
+}
+
+/* line 27, ../sass/_colors.scss */
+.grey-lighter-5 {
+  background-color: white;
+}
+
+/* line 20, ../sass/_colors.scss */
+.cyan {
+  background-color: #23cfda;
+}
+
+/* line 22, ../sass/_colors.scss */
+.cyan-darker-1 {
+  background-color: #1ca5ae;
+}
+
+/* line 22, ../sass/_colors.scss */
+.cyan-darker-2 {
+  background-color: #157c82;
+}
+
+/* line 22, ../sass/_colors.scss */
+.cyan-darker-3 {
+  background-color: #0e5256;
+}
+
+/* line 22, ../sass/_colors.scss */
+.cyan-darker-4 {
+  background-color: #07282a;
+}
+
+/* line 22, ../sass/_colors.scss */
+.cyan-darker-5 {
+  background-color: black;
+}
+
+/* line 27, ../sass/_colors.scss */
+.cyan-lighter-1 {
+  background-color: #4ddae3;
+}
+
+/* line 27, ../sass/_colors.scss */
+.cyan-lighter-2 {
+  background-color: #79e3ea;
+}
+
+/* line 27, ../sass/_colors.scss */
+.cyan-lighter-3 {
+  background-color: #a5ecf1;
+}
+
+/* line 27, ../sass/_colors.scss */
+.cyan-lighter-4 {
+  background-color: #d1f5f8;
+}
+
+/* line 27, ../sass/_colors.scss */
+.cyan-lighter-5 {
+  background-color: #fdffff;
+}
+
+/* line 20, ../sass/_colors.scss */
+.blue-grey {
   background-color: #34495e;
 }
 
-/* line 20, ../sass/_tag.scss */
-.tag-default {
+/* line 22, ../sass/_colors.scss */
+.blue-grey-darker-1 {
+  background-color: #222f3d;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-grey-darker-2 {
+  background-color: #10161c;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-grey-darker-3 {
+  background-color: black;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-grey-darker-4 {
+  background-color: black;
+}
+
+/* line 22, ../sass/_colors.scss */
+.blue-grey-darker-5 {
+  background-color: black;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-grey-lighter-1 {
+  background-color: #46627f;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-grey-lighter-2 {
+  background-color: #587ca0;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-grey-lighter-3 {
+  background-color: #7795b4;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-grey-lighter-4 {
+  background-color: #98afc6;
+}
+
+/* line 27, ../sass/_colors.scss */
+.blue-grey-lighter-5 {
+  background-color: #b9c8d8;
+}
+
+/* line 20, ../sass/_colors.scss */
+.default {
   background-color: #34495e;
 }
 
-/* line 24, ../sass/_tag.scss */
-.darker-1 {
-  -webkit-filter: brightness(20%);
-  filter: brightness(20%);
+/* line 22, ../sass/_colors.scss */
+.default-darker-1 {
+  background-color: #222f3d;
 }
 
-/* line 24, ../sass/_tag.scss */
-.darker-2 {
-  -webkit-filter: brightness(40%);
-  filter: brightness(40%);
+/* line 22, ../sass/_colors.scss */
+.default-darker-2 {
+  background-color: #10161c;
 }
 
-/* line 24, ../sass/_tag.scss */
-.darker-3 {
-  -webkit-filter: brightness(60%);
-  filter: brightness(60%);
+/* line 22, ../sass/_colors.scss */
+.default-darker-3 {
+  background-color: black;
 }
 
-/* line 24, ../sass/_tag.scss */
-.darker-4 {
-  -webkit-filter: brightness(80%);
-  filter: brightness(80%);
+/* line 22, ../sass/_colors.scss */
+.default-darker-4 {
+  background-color: black;
 }
 
-/* line 24, ../sass/_tag.scss */
-.darker-5 {
-  -webkit-filter: brightness(100%);
-  filter: brightness(100%);
+/* line 22, ../sass/_colors.scss */
+.default-darker-5 {
+  background-color: black;
 }
 
-/* line 31, ../sass/_tag.scss */
-.lighter-1 {
-  -webkit-filter: brightness(120%);
-  filter: brightness(120%);
+/* line 27, ../sass/_colors.scss */
+.default-lighter-1 {
+  background-color: #46627f;
 }
 
-/* line 31, ../sass/_tag.scss */
-.lighter-2 {
-  -webkit-filter: brightness(140%);
-  filter: brightness(140%);
+/* line 27, ../sass/_colors.scss */
+.default-lighter-2 {
+  background-color: #587ca0;
 }
 
-/* line 31, ../sass/_tag.scss */
-.lighter-3 {
-  -webkit-filter: brightness(160%);
-  filter: brightness(160%);
+/* line 27, ../sass/_colors.scss */
+.default-lighter-3 {
+  background-color: #7795b4;
 }
 
-/* line 31, ../sass/_tag.scss */
-.lighter-4 {
-  -webkit-filter: brightness(180%);
-  filter: brightness(180%);
+/* line 27, ../sass/_colors.scss */
+.default-lighter-4 {
+  background-color: #98afc6;
 }
 
-/* line 31, ../sass/_tag.scss */
-.lighter-5 {
-  -webkit-filter: brightness(200%);
-  filter: brightness(200%);
+/* line 27, ../sass/_colors.scss */
+.default-lighter-5 {
+  background-color: #b9c8d8;
 }
 
-/* line 36, ../sass/_tag.scss */
+/* line 38, ../sass/_colors.scss */
 .text-white {
   padding: 20px;
   color: #ffffff;
